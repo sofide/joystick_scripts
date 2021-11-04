@@ -27,6 +27,7 @@ def select_device():
 
 def read_device(gamepad, numeric_positions=None):
     if numeric_positions is None:
+        # positions of the joystick axis
         numeric_positions = (0, 1, 2, 3, 4, 9, 10)
 
     numbers = []
